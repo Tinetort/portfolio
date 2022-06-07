@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="images\favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Резюме</title>
+</head>
+
+<body>
+
+    <!-- Preview -->
+
+
+
+    <div class="min-vh-100 d-flex align-items-center justify-content-center text-white bg-dark one">
+        <img class="lamp photo" data-speed="1" src="images\lamp.png" width="300px" alt="lamp">
+        <img class="laptop photo" data-speed="4" src="images\laptop.png" width="500px" alt="laptop">
+        <img class="window photo" data-speed="0" src="images\window.png" width="500px" alt="window">
+        <img class="duck photo" data-speed="2" src="images\duck.png" width="300px" alt="window">
+        <p id="webDev"></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top mt-5 sticky-top"
+        aria-label="Tenth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#">Александр Волков</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+                aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="#projects">Мои проекты</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="#skills">Навыки</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" target="_blank"><img src="images\en.png" width="35px" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- My projects -->
+    <section id="projects">
+        <h2 class="featurette-heading text-center text-white p-3">Мои проекты</h2>
+    </section>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mx-4">
+        <div class="col">
+            <div data-aos="fade-right" class="card">
+                <img src="images\weather.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/API</div>
+                        <a href="https://get-weather-by-api.glitch.me" target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Погода в реальном в ремени</h5>
+
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" class="col">
+            <div class="card">
+                <img src="images\unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/API</div>
+                        <a href='https://unspash-api.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+
+                    </div>
+                    <h5 class="card-title text-center">Бесплатные изображения с Unsplash</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" class="col">
+            <div class="card">
+                <img src="images\randomPerson.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/API</div>
+                        <a href='https://random-person-creator.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Генератор случайных людей</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" class="col">
+            <div class="card">
+                <img src="images\minimalism.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://minimalism-sales.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Минимализм</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" class="col">
+            <div class="card">
+                <img src="images/gavrosh.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/Bootstrap</div>
+                        <a href='https://bistro-gavrosh.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Ресторан "Гаврош"</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" class="col">
+            <div class="card">
+                <img src="images/santa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://santa-is-comming.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Санта спешит к нам!</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" class="col">
+            <div class="card">
+                <img src="images/bookOf.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://book-of-recipes.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Книга рецептов</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" class="col">
+            <div class="card">
+                <img src="images/math.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://math-4-kids.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Математика для детей</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" class="col">
+            <div class="card">
+                <img src="images\billsplitter.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://split-our-bill-ru.glitch.me' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробовать</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Давай разделим наш счет</h5>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="col">
+            <div class="card">
+                <img src="images\planList.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="middle">
+                        <div class="description">HTML/CSS/JS</div>
+                        <a href='https://planlist.glitch.me/' target="_blank"> <button
+                                class="myBtn m-3 p-2">Попробоватьw</button></a>
+                    </div>
+                    <h5 class="card-title text-center">Список дел</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 class="featurette-heading text-center text-white p-3">Мои навыки</h2>
+    </section>
+    <div class="d-flex container flex-wrap justify-content-center align-items-center">
+        <div class="row">
+            <div class="col">
+                <div class="containerSkills">
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">HTML</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 95%"></div>
+                        </div>
+                        <span class="Value"><img src="images\480px-HTML5_logo_and_wordmark.svg.png" width="30px"
+                                alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">CSS</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 95%"></div>
+                        </div>
+                        <span class="Value"><img src="images\CSS.3.svg.png" width="22px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Bootstrap</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 80%"></div>
+                        </div>
+                        <span class="Value"><img src="images\Bootstrap_logo.png" width="30px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Java Script</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 70%"></div>
+                        </div>
+                        <span class="Value"><img src="images\js-logo.webp" width="30px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Node Js</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 30%"></div>
+                        </div>
+                        <span class="Value"><img src="images\node.png" width="30px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">React.js</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 30%"></div>
+                        </div>
+                        <span class="Value"><img src="images\React-icon.svg.png" width="30px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Git</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 60%"></div>
+                        </div>
+                        <span class="Value"><img src="images\git.png" width="32px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Rest API</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 80%"></div>
+                        </div>
+                        <span class="Value"><img src="images\API.png" width="32px" alt=""></span>
+                    </div>
+                    <div class="skills bg-white bg-opacity-75">
+                        <span class="Name">Figma</span>
+                        <div class="procent">
+                            <div class="onProgress" style="width: 80%"></div>
+                        </div>
+                        <span class="Value"><img src="images\figma.png" width="22px" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- img skills -->
+        <div class="d-flex container flex-wrap justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12 d-flex align-items-start justify-content-center flex-column flex-wrap">
+                    <img class="friends" src="images\how-to-front-end-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex container flex-wrap justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12 d-flex align-items-start justify-content-center flex-column flex-wrap">
+                    <p class="about bg-white bg-opacity-75 p-3">Если у Вас есть вопросы есть вопросы и предложения
+                        связанные с моей работой, вы можете связаться связаться со мной в любое время.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <section id="contact">
+            <h2 class="featurette-heading text-center text-white p-3">Контакты</h2>
+        </section>
+        <div class="container d-flex flex-column bg-white bg-opacity-75 footer">
+            <div class="row">
+                <div class="col-12">
+
+                    <form action="https://formspree.io/f/xvollvoy" method="POST">
+                        <div class="heading d-flex align-items-center justify-content-center my-2">
+                            <label>
+                                <div class="d-flex container flex-wrap justify-content-center align-items-center">
+                                    <div class="row">
+                                        Ваша почта:
+                                    </div>
+                                </div>
+
+                                <input placeholder="Ваше Сообщение..." class="input-class" type="email" required=""
+                                    name="_replyto">
+                            </label>
+                        </div>
+                        <div class="heading d-flex align-items-center justify-content-center my-2">
+                            <label>
+                                <div class="d-flex container flex-wrap justify-content-center align-items-center">
+                                    <div class="row">
+                                        Ваше Сообщение:
+                                    </div>
+                                </div>
+                                <textarea class="input-class" placeholder="Напишите свое сообщение здесь..."
+                                    name="message" required=""></textarea>
+                            </label>
+                        </div>
+                        <br>
+                        <div class="heading d-flex pb-3">
+                            <button class="btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <style type="text/css">
+            #hellopreloader>p {
+                display: none;
+            }
+
+            #hellopreloader_preload {
+                display: block;
+                position: fixed;
+                z-index: 99999;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #191f26 url(https://cdn.glitch.global/4e18a1e8-ec85-492a-8229-a3133c7fb175/developer.gif?v=1654459769333) center center no-repeat;
+                background-size: 400px;
+                background-color: white;
+            }
+        </style>
+        <div id="hellopreloader">
+            <div id="hellopreloader_preload">
+                <script
+                    type="text/javascript">let hellopreloader = document.getElementById("hellopreloader_preload"); function fadeOutnojquery(el) { el.style.opacity = 1; let interhellopreloader = setInterval(function () { el.style.opacity = el.style.opacity - 0.05; if (el.style.opacity <= 0.05) { clearInterval(interhellopreloader); hellopreloader.style.display = "none"; } }, 16); } window.onload = function () { setTimeout(function () { fadeOutnojquery(hellopreloader); }, 1000); };</script>
+</body>
+<script src="https://kit.fontawesome.com/337b641a38.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="script.js"></script>
+
+</html>
