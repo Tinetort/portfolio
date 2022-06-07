@@ -1,7 +1,7 @@
 const line = gsap.timeline({ repeat: 0, repeatDelay: 1 });
 
 line.to("#webDev", {
-  text: `HI! I am Alex, and I'm a Web developer`,
+  text: `Привет! Меня зовут Александр и я Веб Разработчик`,
   ease: `power1.in`,
   duration: 2.5,
 });
